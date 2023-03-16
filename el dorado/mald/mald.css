@@ -1,0 +1,61 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px ;
+    width: 30%;
+}
+
+.checkbox{
+    margin:20px 0 ;
+
+}
+
+.enviar{
+    width: 25%;
+    padding: 15px 0;
+    background-color: rgb(24, 80, 24);
+    color: beige;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.7s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background-color: black;
+    color: whitesmoke;
+    transform: scale(1.03);
+}
+
+table{
+    margin: 20px 0 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+thead{
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
